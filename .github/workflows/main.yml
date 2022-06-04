@@ -12,8 +12,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - name: clean README
+        run: cat /dev/null > README.md
+      - run: echo '```bash' >> README.md 
       - name: update README
         run: tree -d >> README.md
+      - run: echo '```' >> README.md
       - name: Commit and push changes
         run: |
           git config --global user.name "kok-s0s"
