@@ -13,6 +13,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: tree -d
+      - run: ls
       - name: update README
         run: tree -d > README.md
-        shell: bash {0}
