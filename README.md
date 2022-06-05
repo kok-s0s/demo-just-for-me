@@ -2,11 +2,12 @@
 .
 ├── css
 │   ├── border-radius
+│   ├── parallax-scrolling
 │   └── round-background
 └── html
     ├── checkbox
     ├── modals
     └── summary
 
-7 directories
+8 directories
 ```
