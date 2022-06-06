@@ -4,10 +4,12 @@
 │   ├── border-radius
 │   ├── parallax-scrolling
 │   └── round-background
-└── html
-    ├── checkbox
-    ├── modals
-    └── summary
+├── html
+│   ├── checkbox
+│   ├── modals
+│   └── summary
+└── js
+    └── getRandomValues
 
-8 directories
+10 directories
 ```
