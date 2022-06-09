@@ -1,6 +1,7 @@
 ```bash
 .
 ├── css
+│   ├── accent-color
 │   ├── border-radius
 │   ├── parallax-scrolling
 │   └── round-background
@@ -12,5 +13,5 @@
     ├── getRandomValues
     └── url
 
-11 directories
+12 directories
 ```
