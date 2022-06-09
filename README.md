@@ -14,7 +14,6 @@
 │   └── url
 └── react
     └── react-webpack
-        └── src
 
-15 directories
+14 directories
 ```
