@@ -9,7 +9,7 @@
 │   ├── checkbox
 │   ├── modals
 │   └── summary
-├── html&css&js
+├── html-css-js
 │   └── magic-nav-menu-indicator
 ├── js
 │   ├── getRandomValues
