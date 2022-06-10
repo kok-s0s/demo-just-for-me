@@ -7,7 +7,7 @@ on:
     branches: [ "master" ]
 
 jobs:
-  build:
+  readme:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,7 +22,6 @@ jobs:
         run: |
           git config --global user.name "kok-s0s"
           git config --global user.email "2694308562@qq.com"
-
           git add -A
           git commit -m "update README.md"
           git push
