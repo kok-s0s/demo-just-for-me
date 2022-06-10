@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+:root {
+  --background: #fffffe;
+  --h1-color: #094067;
+  --h2-color: #094067bf;
+  --highlight-color: #3da9fc;
+  --paragraph-color: #5f6c7b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background: var(--background);
+  user-select: none;
+  font-family: 'Macondo', cursive;
+}
+
+.container {
+  width: 90%;
+  max-width: 1040px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  color: var(--h1-color);
+}
+
+#project, #author {
+  text-shadow: 1px 1px 2px var(--highlight-color);
+}
+
+.introduce .image {
+  width: 700px;
+  float: right;
+  margin-left: 1rem;
+  z-index: 10;
+}
+
+.introduce .image img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 16px;
+  box-shadow: 5px 5px 5px var(--highlight-color);
+}
+
+.introduce .description .title {
+  margin-bottom: 1rem;
+  color: var(--h2-color);
+  font-size: 3.5rem;
+  line-height: 1.15;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px var(--highlight-color);
+}
+
+.introduce .description .content {
+  color: var(--paragraph-color);
+  text-indent: 2rem;
+  font-size: 1.6rem;
+  letter-spacing: 1.2px;
+  line-height: 1.8;
+  hyphens: auto;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  #author {
+    padding-left: 6rem;
+  }
+
+  .introduce {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .introduce .image {
+    width: auto;
+    flex: 1 1 auto;
+    margin-left: 0;
+  }
+
+  .introduce .image img {
+    border-radius: 8px;
+  }
+
+  .introduce .description .title {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1.15;
+    font-weight: 700;
+  }
+
+  .introduce .description .content {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    hyphens: none;
+  }
+}
