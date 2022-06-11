@@ -2,6 +2,7 @@
 
 :root {
   --background: #fffffe;
+  --section-background: #d8eefe;
   --h1-color: #094067;
   --h2-color: #094067bf;
   --highlight-color: #3da9fc;
@@ -23,7 +24,7 @@
   margin-left: auto;
 }
 
-.header {
+.header .container{
   display: flex;
   justify-content: space-between;
   margin-top: 5rem;
@@ -35,21 +36,21 @@
   text-shadow: 1px 1px 2px var(--highlight-color);
 }
 
-.introduce .image {
+.introduce .container .image {
   width: 700px;
   float: right;
   margin-left: 1rem;
   z-index: 10;
 }
 
-.introduce .image img {
+.introduce .container .image img {
   width: 100%;
   object-fit: contain;
   border-radius: 16px;
   box-shadow: 5px 5px 5px var(--highlight-color);
 }
 
-.introduce .description .title {
+.introduce .container .description .title {
   margin-bottom: 1rem;
   color: var(--h2-color);
   font-size: 3.5rem;
@@ -58,7 +59,7 @@
   text-shadow: 1px 1px 2px var(--highlight-color);
 }
 
-.introduce .description .content {
+.introduce .container .description .content {
   color: var(--paragraph-color);
   text-indent: 2rem;
   font-size: 1.6rem;
@@ -67,8 +68,14 @@
   hyphens: auto;
 }
 
+.category {
+  background: var(--section-background);
+  height: 600px;
+  margin-top: 5rem;
+}
+
 @media (max-width: 768px) {
-  .header {
+  .header .container {
     flex-direction: column;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
@@ -78,31 +85,35 @@
     padding-left: 6rem;
   }
 
-  .introduce {
+  .introduce .container {
     display: flex;
     flex-direction: column;
   }
 
-  .introduce .image {
+  .introduce .container  .image {
     width: auto;
     flex: 1 1 auto;
     margin-left: 0;
   }
 
-  .introduce .image img {
+  .introduce .container .image img {
     border-radius: 8px;
   }
 
-  .introduce .description .title {
+  .introduce .container .description .title {
     margin-top: 1.5rem;
     font-size: 1.5rem;
     line-height: 1.15;
     font-weight: 700;
   }
 
-  .introduce .description .content {
+  .introduce .container .description .content {
     font-size: 1.3rem;
     line-height: 1.5;
     hyphens: none;
+  }
+
+  .category {
+    margin-top: 2rem;
   }
 }
