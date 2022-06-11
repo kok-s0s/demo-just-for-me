@@ -16,7 +16,7 @@ jobs:
         run: cat /dev/null > README.md
       - run: echo '```bash' >> README.md
       - name: update README
-        run: cd category | tree -dL 3 >> ./README.md
+        run: cd category && (tree -dLJ 2 > ../data.json;tree -dL 2 >> ../README.md)
       - run: echo '```' >> README.md
       - name: Commit and push changes
         run: |
