@@ -23,5 +23,5 @@ jobs:
           git config --global user.name "kok-s0s"
           git config --global user.email "2694308562@qq.com"
           git add -A
-          git commit -m "update README.md"
+          git commit -m "update README.md and data.json"
           git push
