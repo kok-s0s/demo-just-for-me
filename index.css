@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 
 :root {
-  --background: #fffffe;
+  --background-color: #fffffe;
   --section-background: #d8eefe;
   --h1-color: #094067;
   --h2-color: #094067bf;
@@ -12,9 +12,12 @@
 * {
   margin: 0;
   padding: 0;
-  background: var(--background);
   user-select: none;
   font-family: 'Macondo', cursive;
+}
+
+body {
+  background: var(--background-color);
 }
 
 .container {
@@ -24,7 +27,7 @@
   margin-left: auto;
 }
 
-.header .container{
+.header .container {
   display: flex;
   justify-content: space-between;
   margin-top: 5rem;
@@ -32,7 +35,8 @@
   color: var(--h1-color);
 }
 
-#project, #author {
+#project,
+#author {
   text-shadow: 1px 1px 2px var(--highlight-color);
 }
 
@@ -70,8 +74,60 @@
 
 .category {
   background: var(--section-background);
-  height: 600px;
   margin-top: 5rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.category .container .title {
+  margin-bottom: 1rem;
+  color: var(--h1-color);
+  text-align: center;
+  font-size: 4rem;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.category .container p {
+  margin-bottom: 4rem;
+  color: var(--paragraph-color);
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.category .container .card-grid {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+}
+
+.category .container .card-grid .card {
+  padding: 3rem;
+  border-radius: 3px;
+  background-color: var(--background-color);
+}
+
+.category .container .card-grid .card .title {
+  margin-bottom: 2rem;
+  color: var(--h1-color);
+  font-size: 3rem;
+  line-height: 30px;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px var(--highlight-color);
+}
+
+.category .container .card-grid .card .list {
+  text-align: center;
+}
+
+.category .container .card-grid .card .list .item {
+  color: var(--paragraph-color);
+  font-size: 1.6rem;
+  line-height: 1.5;
 }
 
 @media (max-width: 768px) {
@@ -90,7 +146,7 @@
     flex-direction: column;
   }
 
-  .introduce .container  .image {
+  .introduce .container .image {
     width: auto;
     flex: 1 1 auto;
     margin-left: 0;
@@ -115,5 +171,23 @@
 
   .category {
     margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .category .container .title {
+    font-size: 2.5rem;
+  }
+
+  .category .container .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .category .container .card-grid .card {
+    padding: 1.5rem;
+  }
+
+  .category .container .card-grid .card .title {
+    font-size: 2.3rem;
   }
 }
