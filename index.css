@@ -300,3 +300,32 @@ a:hover {
     margin-left: 0rem;
   }
 }
+
+.js-scroll {
+  opacity: 0;
+}
+
+.js-scroll.scrolled {
+  opacity: 1;
+}
+
+.category .container .title.scrolled,
+.category .container p.scrolled {
+  animation: fadeInUp;
+  animation-duration: 1s;
+}
+
+.category .container .card-grid.scrolled {
+  animation: fadeInLeftBig;
+  animation-duration: 1s;
+}
+
+.info .container .personality.scrolled {
+  animation: bounceInLeft;
+  animation-duration: 1s;
+}
+
+.info .container .contact.scrolled {
+  animation: bounceInRight;
+  animation-duration: 1s;
+}

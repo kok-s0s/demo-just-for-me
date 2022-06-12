@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="./images/kok-s0s.ico" />
     <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>demo</title>
   </head>
 
   <body>
     <h1 class="header">
-      <div class="container">
+      <div class="container animate__animated animate__bounceInDown">
         <em id="project">demo-just-for-me</em>
         <em id="author">Author : kok-s0s</em>
       </div>
@@ -19,10 +20,10 @@
 
     <section class="introduce">
       <div class="container">
-        <div class="image">
-          <img src="./images/gundam.jpg" alt="" />
+        <div class="image animate__animated animate__bounceInRight">
+          <img src="./images/gundam.jpg" alt="gundam" />
         </div>
-        <div class="description">
+        <div class="description animate__animated animate__bounceInLeft">
           <div class="title"><em>The code is endless</em></div>
           <p class="content">
             There is too much information on the Internet. In the past, the knowledge that I wanted to learn was always thrown into the favorites. In order to change the way in the past, I chose to
@@ -34,15 +35,15 @@
 
     <section class="category">
       <div class="container">
-        <div class="title">category</div>
-        <p>Here are all my records, not sure if there is any part of your interest.</p>
-        <div class="card-grid" id="cards"></div>
+        <div class="title js-scroll">category</div>
+        <p class="js-scroll">Here are all my records, not sure if there is any part of your interest.</p>
+        <div class="card-grid js-scroll" id="cards"></div>
       </div>
     </section>
 
     <section class="info">
       <div class="container">
-        <div class="personality">
+        <div class="personality js-scroll">
           <div class="title">
             <em>Just Do it!</em>
             <em id="title-right">Just For Fun!</em>
@@ -52,7 +53,7 @@
             whether the action is executed immediately.
           </div>
         </div>
-        <div class="contact">
+        <div class="contact js-scroll">
           <div class="title"><em>Find Me</em></div>
           <div class="a-col">
             <a href="https://kok-s0s.top/" target="_blank" class="link">Blog</a>
@@ -62,6 +63,6 @@
       </div>
     </section>
 
-    <script type="module" src="./index.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>
