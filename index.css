@@ -130,6 +130,71 @@ body {
   line-height: 1.5;
 }
 
+.info {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.info .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info .container .personality {
+  width: 65%;
+}
+
+.info .container .personality .title {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info .container .personality .reason {
+  color: var(--paragraph-color);
+  text-indent: 2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  hyphens: auto;
+}
+
+.info .container .contact {
+  width: 25%;
+}
+
+.info .container .personality .title,
+.info .container .contact .title {
+  margin-bottom: 1.5rem;
+  color: var(--h1-color);
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px var(--highlight-color);
+}
+
+.info .container .contact .a-col {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.info .container .contact .a-col a {
+  margin-bottom: 1rem;
+  color: var(--paragraph-color);
+  font-size: 1.7rem;
+  letter-spacing: 3px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.info .container .contact .a-col a:hover {
+  color: var(--highlight-color);
+}
+
 @media (max-width: 768px) {
   .header .container {
     flex-direction: column;
@@ -189,5 +254,46 @@ body {
 
   .category .container .card-grid .card .title {
     font-size: 2.3rem;
+  }
+
+  .info {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .info .container {
+    flex-direction: column;
+  }
+
+  .info .container .personality .title {
+    flex-direction: column;
+  }
+
+  #title-right {
+    margin-top: 1rem;
+    margin-left: 3rem;
+  }
+
+  .info .container .personality .reason {
+    color: var(--paragraph-color);
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1.3px;
+    line-height: 1.5;
+  }
+
+  .info .container .personality,
+  .info .container .contact {
+    width: 100%;
+  }
+
+  .info .container .contact {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .info .container .contact .a-col {
+    margin-left: 0rem;
   }
 }
