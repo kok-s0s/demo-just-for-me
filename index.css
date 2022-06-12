@@ -231,7 +231,6 @@ body {
   .introduce .container .description .content {
     font-size: 1.3rem;
     line-height: 1.5;
-    hyphens: none;
   }
 
   .category {
@@ -269,17 +268,18 @@ body {
     flex-direction: column;
   }
 
+  .info .container .personality .title,
+  .info .container .contact .title {
+    font-size: 2rem;
+  }
+
   #title-right {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     margin-left: 3rem;
   }
 
   .info .container .personality .reason {
-    color: var(--paragraph-color);
-    text-align: left;
-    font-size: 1.5rem;
-    font-weight: 400;
-    letter-spacing: 1.3px;
+    font-size: 1.3rem;
     line-height: 1.5;
   }
 
