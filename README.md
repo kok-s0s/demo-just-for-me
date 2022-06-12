@@ -10,12 +10,12 @@
 │   ├── modals
 │   └── summary
 ├── html-css-js
-│   ├── glass-hover-effect
 │   ├── magic-nav-menu-indicator
 │   └── scrolling-animation-demo
 ├── js
 │   ├── getRandomValues
-│   └── url
+│   ├── url
+│   └── vanilla-tilt
 └── react
     ├── react-state
     └── react-webpack

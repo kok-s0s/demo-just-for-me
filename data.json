@@ -18,8 +18,6 @@
       ]}
     ]},
     {"type":"directory","name":"html-css-js","contents":[
-      {"type":"directory","name":"glass-hover-effect","contents":[
-      ]},
       {"type":"directory","name":"magic-nav-menu-indicator","contents":[
       ]},
       {"type":"directory","name":"scrolling-animation-demo","contents":[
@@ -29,6 +27,8 @@
       {"type":"directory","name":"getRandomValues","contents":[
       ]},
       {"type":"directory","name":"url","contents":[
+      ]},
+      {"type":"directory","name":"vanilla-tilt","contents":[
       ]}
     ]},
     {"type":"directory","name":"react","contents":[
