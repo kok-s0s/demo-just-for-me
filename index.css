@@ -182,16 +182,19 @@ body {
   margin-left: 1rem;
 }
 
-.info .container .contact .a-col a {
+.info .container .contact .a-col .link {
   margin-bottom: 1rem;
-  color: var(--paragraph-color);
   font-size: 1.7rem;
   letter-spacing: 3px;
   font-weight: 400;
+}
+
+a {
+  color: var(--paragraph-color);
   text-decoration: none;
 }
 
-.info .container .contact .a-col a:hover {
+a:hover {
   color: var(--highlight-color);
 }
 

@@ -11,7 +11,11 @@ fetch('./data.json')
             <div class="list">
               ${contents
                 .map((item) => {
-                  return `<div class="item">${item.name}</div>`
+                  return `
+                    <div class="item">
+                      <a href="https://github.com/kok-s0s/demo-just-for-me/tree/master/category/${name}/${item.name}" target="_blank" class="link">${item.name}</a>
+                    </div>
+                  `
                 })
                 .join('')}
             </div>
