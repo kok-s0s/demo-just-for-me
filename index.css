@@ -7,6 +7,9 @@
   --h2-color: #094067bf;
   --highlight-color: #3da9fc;
   --paragraph-color: #5f6c7b;
+  --tertiary-color: #ef4565;
+  --message-color: #90b4ce;
+  --black-color: #000000aa;
 }
 
 * {
@@ -328,4 +331,39 @@ a:hover {
 .info .container .contact.scrolled {
   animation: bounceInRight;
   animation-duration: 1s;
+}
+
+#github {
+  display: flex;
+  position: fixed;
+  bottom: 4rem;
+  z-index: 9999;
+}
+
+#github .message {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem;
+  background: var(--message-color);
+}
+
+#github .message a {
+  color: var(--black-color);
+}
+
+#github:hover .message {
+  display: flex;
+}
+
+#github .icon {
+  background: var(--tertiary-color);
+  border-radius: 0 50% 50% 0;
+}
+
+#github ion-icon {
+  display: flex;
+  margin: 0.3rem;
+  font-size: 1.5rem;
+  opacity: 0.8;
 }
