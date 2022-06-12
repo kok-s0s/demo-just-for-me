@@ -4,6 +4,7 @@
   --background-color: #fffffe;
   --section-background: #d8eefe;
   --h1-color: #094067;
+  --h1-deep-color: #094067;
   --h2-color: #094067bf;
   --highlight-color: #3da9fc;
   --paragraph-color: #5f6c7b;
@@ -84,7 +85,7 @@ body {
 
 .category .container .title {
   margin-bottom: 1rem;
-  color: var(--h1-color);
+  color: var(--h1-deep-color);
   text-align: center;
   font-size: 4rem;
   line-height: 1.3;
