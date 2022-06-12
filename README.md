@@ -11,7 +11,8 @@
 │   └── summary
 ├── html-css-js
 │   ├── glass-hover-effect
-│   └── magic-nav-menu-indicator
+│   ├── magic-nav-menu-indicator
+│   └── scrolling-animation-demo
 ├── js
 │   ├── getRandomValues
 │   └── url
@@ -19,5 +20,5 @@
     ├── react-state
     └── react-webpack
 
-18 directories
+19 directories
 ```
