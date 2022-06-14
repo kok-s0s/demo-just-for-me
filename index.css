@@ -90,6 +90,7 @@ body {
   font-size: 4rem;
   line-height: 1.3;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .category .container p {
@@ -193,6 +194,77 @@ body {
   font-weight: 400;
 }
 
+.js-scroll {
+  opacity: 0;
+}
+
+.js-scroll.scrolled {
+  opacity: 1;
+}
+
+.category .container .title.scrolled,
+.category .container p.scrolled {
+  animation: fadeInUp;
+  animation-duration: 1s;
+}
+
+.category .container .card-grid.scrolled {
+  animation: fadeInLeftBig;
+  animation-duration: 1s;
+}
+
+.info .container .personality.scrolled {
+  animation: bounceInLeft;
+  animation-duration: 1s;
+}
+
+.info .container .contact.scrolled {
+  animation: bounceInRight;
+  animation-duration: 1s;
+}
+
+#github {
+  display: flex;
+  position: fixed;
+  bottom: 4rem;
+  z-index: 9999;
+}
+
+#github .message {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem;
+  background: var(--message-color);
+}
+
+#github .message a {
+  color: var(--black-color);
+}
+
+#github:hover .message {
+  display: flex;
+}
+
+#github .icon {
+  background: var(--tertiary-color);
+  border-radius: 0 50% 50% 0;
+}
+
+#github ion-icon {
+  display: flex;
+  margin: 0.3rem;
+  font-size: 1.5rem;
+  opacity: 0.8;
+}
+
+#pie {
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 a {
   color: var(--paragraph-color);
   text-decoration: none;
@@ -200,6 +272,26 @@ a {
 
 a:hover {
   color: var(--highlight-color);
+}
+
+dialog {
+  width: 60%;
+  margin: auto;
+  border-color: var(--tertiary-color);
+}
+
+dialog button {
+  border: none;
+  background: inherit;
+  color: var(--paragraph-color);
+  font-size: 2rem;
+  margin-top: 0.3rem;
+  margin-left: 0.3rem;
+  cursor: pointer;
+}
+
+dialog button svg {
+  display: flex;
 }
 
 @media (max-width: 768px) {
@@ -303,68 +395,13 @@ a:hover {
   .info .container .contact .a-col {
     margin-left: 0rem;
   }
-}
 
-.js-scroll {
-  opacity: 0;
-}
+  #pie {
+    width: 200px;
+    height: 200px;
+  }
 
-.js-scroll.scrolled {
-  opacity: 1;
-}
-
-.category .container .title.scrolled,
-.category .container p.scrolled {
-  animation: fadeInUp;
-  animation-duration: 1s;
-}
-
-.category .container .card-grid.scrolled {
-  animation: fadeInLeftBig;
-  animation-duration: 1s;
-}
-
-.info .container .personality.scrolled {
-  animation: bounceInLeft;
-  animation-duration: 1s;
-}
-
-.info .container .contact.scrolled {
-  animation: bounceInRight;
-  animation-duration: 1s;
-}
-
-#github {
-  display: flex;
-  position: fixed;
-  bottom: 4rem;
-  z-index: 9999;
-}
-
-#github .message {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  padding: 0.3rem;
-  background: var(--message-color);
-}
-
-#github .message a {
-  color: var(--black-color);
-}
-
-#github:hover .message {
-  display: flex;
-}
-
-#github .icon {
-  background: var(--tertiary-color);
-  border-radius: 0 50% 50% 0;
-}
-
-#github ion-icon {
-  display: flex;
-  margin: 0.3rem;
-  font-size: 1.5rem;
-  opacity: 0.8;
+  dialog button {
+    margin: 0rem;
+  }
 }
