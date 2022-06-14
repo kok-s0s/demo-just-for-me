@@ -12,7 +12,7 @@ fetch('./data.json')
                 .map((item) => {
                   return `
                     <div class="item">
-                      <a href="https://github.com/kok-s0s/demo-just-for-me/tree/master/category/${name}/${item.name}" target="_blank" class="link">${item.name}</a>
+                      <a href="./category/${name}/${item.name}/index.html" target="_blank" class="link">${item.name}</a>
                     </div>
                   `
                 })
