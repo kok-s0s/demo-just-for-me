@@ -37,8 +37,10 @@
       {"type":"directory","name":"react-state","contents":[
       ]},
       {"type":"directory","name":"react-webpack","contents":[
+      ]},
+      {"type":"directory","name":"routing-authentication","contents":[
       ]}
     ]}
   ]},
-  {"type":"report","directories":20}
+  {"type":"report","directories":21}
 ]
