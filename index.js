@@ -60,7 +60,7 @@ fetch('./data.json')
                 .map((item) => {
                   return `
                     <div class="item">
-                      <a href="./category/${name}/${item.name}/index.html" target="_blank" class="link">${item.name}</a>
+                      <a href="./category/${name}/${item.name}/index.html" class="link">${item.name}</a>
                     </div>
                   `
                 })
