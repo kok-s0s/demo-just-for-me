@@ -14,6 +14,8 @@
       ]},
       {"type":"directory","name":"modals","contents":[
       ]},
+      {"type":"directory","name":"picture","contents":[
+      ]},
       {"type":"directory","name":"summary","contents":[
       ]}
     ]},
@@ -42,5 +44,5 @@
       ]}
     ]}
   ]},
-  {"type":"report","directories":21}
+  {"type":"report","directories":22}
 ]

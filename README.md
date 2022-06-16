@@ -8,6 +8,7 @@
 ├── html
 │   ├── checkbox
 │   ├── modals
+│   ├── picture
 │   └── summary
 ├── html-css-js
 │   ├── magic-nav-menu-indicator
@@ -22,5 +23,5 @@
     ├── react-webpack
     └── routing-authentication
 
-21 directories
+22 directories
 ```
