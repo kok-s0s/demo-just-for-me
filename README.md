@@ -11,6 +11,7 @@
 │   ├── picture
 │   └── summary
 ├── html-css-js
+│   ├── faq-page
 │   ├── magic-nav-menu-indicator
 │   └── scrolling-animation-demo
 ├── js
@@ -23,5 +24,5 @@
     ├── react-webpack
     └── routing-authentication
 
-22 directories
+23 directories
 ```
