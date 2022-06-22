@@ -9,6 +9,7 @@
 │   ├── picture
 │   └── summary
 ├── html-css
+│   ├── card-hover-effects
 │   ├── faq-page
 │   ├── parallax-scrolling
 │   └── round-background
@@ -25,5 +26,5 @@
     ├── react-webpack
     └── routing-authentication
 
-24 directories
+25 directories
 ```

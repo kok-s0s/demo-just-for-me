@@ -16,6 +16,8 @@
       ]}
     ]},
     {"type":"directory","name":"html-css","contents":[
+      {"type":"directory","name":"card-hover-effects","contents":[
+      ]},
       {"type":"directory","name":"faq-page","contents":[
       ]},
       {"type":"directory","name":"parallax-scrolling","contents":[
@@ -48,5 +50,5 @@
       ]}
     ]}
   ]},
-  {"type":"report","directories":24}
+  {"type":"report","directories":25}
 ]
