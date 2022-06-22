@@ -2,16 +2,17 @@
 .
 ├── css
 │   ├── accent-color
-│   ├── border-radius
-│   ├── parallax-scrolling
-│   └── round-background
+│   └── border-radius
 ├── html
 │   ├── checkbox
 │   ├── modals
 │   ├── picture
 │   └── summary
-├── html-css-js
+├── html-css
 │   ├── faq-page
+│   ├── parallax-scrolling
+│   └── round-background
+├── html-css-js
 │   ├── magic-nav-menu-indicator
 │   └── scrolling-animation-demo
 ├── js
@@ -24,5 +25,5 @@
     ├── react-webpack
     └── routing-authentication
 
-23 directories
+24 directories
 ```
