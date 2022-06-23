@@ -15,7 +15,8 @@
 │   └── round-background
 ├── html-css-js
 │   ├── magic-nav-menu-indicator
-│   └── scrolling-animation-demo
+│   ├── scrolling-animation-demo
+│   └── snake
 ├── js
 │   ├── getRandomValues
 │   ├── how-to-use-json
@@ -26,5 +27,5 @@
     ├── react-webpack
     └── routing-authentication
 
-25 directories
+26 directories
 ```
