@@ -1,7 +1,7 @@
 ```bash
 .
 ├── api
-│   └── exchange-rates-data-api
+│   └── exchange-rates
 ├── css
 │   ├── accent-color
 │   └── border-radius

@@ -1,6 +1,6 @@
 [{"type":"directory","name": ".","contents":[
     {"type":"directory","name":"api","contents":[
-      {"type":"directory","name":"exchange-rates-data-api","contents":[
+      {"type":"directory","name":"exchange-rates","contents":[
       ]}
     ]},
     {"type":"directory","name":"css","contents":[
