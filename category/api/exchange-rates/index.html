@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/images/kok-s0s.ico" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Exchange Rates Data API</title>
+  </head>
+  <body>
+    <h1>
+      <a href="https://apilayer.com/marketplace/exchangerates_data-api#documentation-tab">Exchange Rates Data API</a>
+    </h1>
+
+    <div id="country">
+      <h2><em>Try to Scroll</em></h2>
+      <div id="list"></div>
+    </div>
+
+    <h2><em>easy to use</em></h2>
+
+    <section>
+      <div class="function">Convert</div>
+
+      <div class="req">
+        <div class="mes">
+          <span>To</span>
+          <input type="text" id="to" />
+        </div>
+
+        <div class="mes">
+          <span>from</span>
+          <input type="text" id="from" />
+        </div>
+
+        <div class="mes">
+          <span>amount</span>
+          <input type="text" id="amount" />
+        </div>
+
+        <button id="confirmConvert">confirm</button>
+
+        <div id="convertRes"></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="function">Latest</div>
+
+      <div class="req">
+        <div class="mes">
+          <span>base</span>
+          <input type="text" id="base" />
+        </div>
+
+        <div class="mes">
+          <span>symbols</span>
+          <input type="text" id="symbols" />
+        </div>
+
+        <button id="confirmLatest">confirm</button>
+
+        <div id="latestRes"></div>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
