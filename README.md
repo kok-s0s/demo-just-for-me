@@ -11,6 +11,7 @@
 │   ├── picture
 │   └── summary
 ├── html-css
+│   ├── animated-text
 │   ├── card-hover-effects
 │   ├── faq-page
 │   ├── parallax-scrolling
@@ -29,5 +30,5 @@
     ├── react-webpack
     └── routing-authentication
 
-28 directories
+29 directories
 ```

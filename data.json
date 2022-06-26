@@ -20,6 +20,8 @@
       ]}
     ]},
     {"type":"directory","name":"html-css","contents":[
+      {"type":"directory","name":"animated-text","contents":[
+      ]},
       {"type":"directory","name":"card-hover-effects","contents":[
       ]},
       {"type":"directory","name":"faq-page","contents":[
@@ -56,5 +58,5 @@
       ]}
     ]}
   ]},
-  {"type":"report","directories":28}
+  {"type":"report","directories":29}
 ]
