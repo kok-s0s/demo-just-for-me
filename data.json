@@ -32,6 +32,8 @@
       ]}
     ]},
     {"type":"directory","name":"html-css-js","contents":[
+      {"type":"directory","name":"circle-progressbar","contents":[
+      ]},
       {"type":"directory","name":"magic-nav-menu-indicator","contents":[
       ]},
       {"type":"directory","name":"scrolling-animation-demo","contents":[
@@ -58,5 +60,5 @@
       ]}
     ]}
   ]},
-  {"type":"report","directories":29}
+  {"type":"report","directories":30}
 ]
