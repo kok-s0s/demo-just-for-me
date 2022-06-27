@@ -13,6 +13,7 @@
 ├── html-css
 │   ├── animated-text
 │   ├── card-hover-effects
+│   ├── css-clip-path-maker
 │   ├── faq-page
 │   ├── parallax-scrolling
 │   └── round-background
@@ -31,5 +32,5 @@
     ├── react-webpack
     └── routing-authentication
 
-30 directories
+31 directories
 ```

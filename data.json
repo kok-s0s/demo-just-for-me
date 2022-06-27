@@ -24,6 +24,8 @@
       ]},
       {"type":"directory","name":"card-hover-effects","contents":[
       ]},
+      {"type":"directory","name":"css-clip-path-maker","contents":[
+      ]},
       {"type":"directory","name":"faq-page","contents":[
       ]},
       {"type":"directory","name":"parallax-scrolling","contents":[
@@ -60,5 +62,5 @@
       ]}
     ]}
   ]},
-  {"type":"report","directories":30}
+  {"type":"report","directories":31}
 ]
