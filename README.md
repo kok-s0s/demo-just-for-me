@@ -18,6 +18,7 @@
 │   ├── parallax-scrolling
 │   └── round-background
 ├── html-css-js
+│   ├── bg-animation-effects
 │   ├── circle-progressbar
 │   ├── magic-nav-menu-indicator
 │   ├── scrolling-animation-demo
@@ -32,5 +33,5 @@
     ├── react-webpack
     └── routing-authentication
 
-31 directories
+32 directories
 ```
