@@ -4,7 +4,8 @@
 │   └── exchange-rates
 ├── css
 │   ├── accent-color
-│   └── border-radius
+│   ├── border-radius
+│   └── scroll-behavior
 ├── html
 │   ├── checkbox
 │   ├── modals
@@ -33,5 +34,5 @@
     ├── react-webpack
     └── routing-authentication
 
-32 directories
+33 directories
 ```

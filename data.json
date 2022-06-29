@@ -7,6 +7,8 @@
       {"type":"directory","name":"accent-color","contents":[
       ]},
       {"type":"directory","name":"border-radius","contents":[
+      ]},
+      {"type":"directory","name":"scroll-behavior","contents":[
       ]}
     ]},
     {"type":"directory","name":"html","contents":[
@@ -64,5 +66,5 @@
       ]}
     ]}
   ]},
-  {"type":"report","directories":32}
+  {"type":"report","directories":33}
 ]
