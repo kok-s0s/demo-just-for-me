@@ -1,0 +1,56 @@
+a {
+  display: inline-block;
+  width: 20px;
+  color: #5f6c7b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3da9fc;
+}
+
+nav,
+scroll-container {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+scroll-container {
+  display: block;
+  width: 350px;
+  height: 200px;
+  margin-top: 1rem;
+  overflow-y: scroll;
+}
+
+scroll-container#smooth {
+  scroll-behavior: smooth;
+}
+
+scroll-container#auto {
+  scroll-behavior: auto;
+}
+
+scroll-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 5em;
+}
+
+em {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 600px) {
+  scroll-container {
+    width: 100%;
+  }
+}
