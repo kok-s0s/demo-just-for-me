@@ -63,8 +63,10 @@
       {"type":"directory","name":"react-webpack","contents":[
       ]},
       {"type":"directory","name":"routing-authentication","contents":[
+      ]},
+      {"type":"directory","name":"tic-tac-toe","contents":[
       ]}
     ]}
   ]},
-  {"type":"report","directories":33}
+  {"type":"report","directories":34}
 ]
