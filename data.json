@@ -52,6 +52,8 @@
       ]},
       {"type":"directory","name":"how-to-use-json","contents":[
       ]},
+      {"type":"directory","name":"requestFullscreen","contents":[
+      ]},
       {"type":"directory","name":"url","contents":[
       ]},
       {"type":"directory","name":"vanilla-tilt","contents":[
@@ -70,5 +72,5 @@
       ]}
     ]}
   ]},
-  {"type":"report","directories":35}
+  {"type":"report","directories":36}
 ]

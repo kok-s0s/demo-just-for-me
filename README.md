@@ -27,6 +27,7 @@
 ├── js
 │   ├── getRandomValues
 │   ├── how-to-use-json
+│   ├── requestFullscreen
 │   ├── url
 │   └── vanilla-tilt
 └── react
@@ -36,5 +37,5 @@
     ├── routing-authentication
     └── tic-tac-toe
 
-35 directories
+36 directories
 ```
