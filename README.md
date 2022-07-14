@@ -32,10 +32,11 @@
 │   └── vanilla-tilt
 └── react
     ├── react-doc
+    ├── react-pagination
     ├── react-state
     ├── react-webpack
     ├── routing-authentication
     └── tic-tac-toe
 
-36 directories
+37 directories
 ```

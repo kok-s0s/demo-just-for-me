@@ -62,6 +62,8 @@
     {"type":"directory","name":"react","contents":[
       {"type":"directory","name":"react-doc","contents":[
       ]},
+      {"type":"directory","name":"react-pagination","contents":[
+      ]},
       {"type":"directory","name":"react-state","contents":[
       ]},
       {"type":"directory","name":"react-webpack","contents":[
@@ -72,5 +74,5 @@
       ]}
     ]}
   ]},
-  {"type":"report","directories":36}
+  {"type":"report","directories":37}
 ]
