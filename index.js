@@ -1,54 +1,6 @@
 fetch('./data.json')
   .then((response) => response.json())
   .then((json) => {
-    let jsonData = json[0].contents.map((item) => {
-      return {
-        value: item.contents.length,
-        name: item.name,
-      }
-    })
-
-    var myChart = echarts.init(document.getElementById('pie'))
-    window.onresize = function () {
-      myChart.resize()
-    }
-
-    var option = {
-      tooltip: {
-        trigger: 'item',
-      },
-      series: [
-        {
-          name: 'Data Pie',
-          type: 'pie',
-          radius: ['40%', '70%'],
-          avoidLabelOverlap: false,
-          itemStyle: {
-            borderRadius: 10,
-            borderColor: '#fff',
-            borderWidth: 2,
-          },
-          label: {
-            show: false,
-            position: 'center',
-          },
-          emphasis: {
-            label: {
-              show: true,
-              fontSize: '40',
-              fontWeight: 'bold',
-            },
-          },
-          labelLine: {
-            show: false,
-          },
-          data: jsonData,
-        },
-      ],
-    }
-
-    myChart.setOption(option)
-
     return (cards.innerHTML = json[0].contents
       .map((item) => {
         const { name, contents } = item
