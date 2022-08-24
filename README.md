@@ -18,6 +18,7 @@
 │   ├── css-clip-path-maker
 │   ├── faq-page
 │   ├── parallax-scrolling
+│   ├── read-more
 │   └── round-background
 ├── html-css-js
 │   ├── bg-animation-effects
@@ -39,5 +40,5 @@
     ├── routing-authentication
     └── tic-tac-toe
 
-38 directories
+39 directories
 ```
