@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul.stacks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+ul.stacks li {
+  background-color: #ccc;
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+ul.stacks li::after {
+  content: '';
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./hexo_top_img.png');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+ul.stacks li {
+  @for $i from 1 through 10 {
+    &:nth-child(#{$i}) {
+      &::after {
+        left: calc(#{$i - 1} * -10vw);
+      }
+      transition-delay: calc(#{$i} * 0.06s);
+    }
+  }
+  transition: 1s transform ease-in-out;
+}
+
+ul.stacks:hover li{
+  transform: translateY(-100vh);
+}
