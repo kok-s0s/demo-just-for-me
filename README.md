@@ -20,7 +20,8 @@
 │   ├── parallax-scrolling
 │   ├── read-more
 │   ├── round-background
-│   └── scroll-snap
+│   ├── scroll-snap
+│   └── shutters
 ├── html-css-js
 │   ├── bg-animation-effects
 │   ├── circle-progressbar
@@ -41,5 +42,5 @@
     ├── routing-authentication
     └── tic-tac-toe
 
-40 directories
+41 directories
 ```

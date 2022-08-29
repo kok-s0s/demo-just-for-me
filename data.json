@@ -39,6 +39,8 @@
       {"type":"directory","name":"round-background","contents":[
       ]},
       {"type":"directory","name":"scroll-snap","contents":[
+      ]},
+      {"type":"directory","name":"shutters","contents":[
       ]}
     ]},
     {"type":"directory","name":"html-css-js","contents":[
@@ -80,5 +82,5 @@
       ]}
     ]}
   ]},
-  {"type":"report","directories":40}
+  {"type":"report","directories":41}
 ]
