@@ -17,6 +17,7 @@
 │   ├── card-hover-effects
 │   ├── css-clip-path-maker
 │   ├── faq-page
+│   ├── flipping-card
 │   ├── parallax-scrolling
 │   ├── read-more
 │   ├── round-background
@@ -42,5 +43,5 @@
     ├── routing-authentication
     └── tic-tac-toe
 
-41 directories
+42 directories
 ```

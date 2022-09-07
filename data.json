@@ -32,6 +32,8 @@
       ]},
       {"type":"directory","name":"faq-page","contents":[
       ]},
+      {"type":"directory","name":"flipping-card","contents":[
+      ]},
       {"type":"directory","name":"parallax-scrolling","contents":[
       ]},
       {"type":"directory","name":"read-more","contents":[
@@ -82,5 +84,5 @@
       ]}
     ]}
   ]},
-  {"type":"report","directories":41}
+  {"type":"report","directories":42}
 ]
