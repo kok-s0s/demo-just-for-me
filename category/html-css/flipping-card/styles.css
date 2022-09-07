@@ -54,3 +54,14 @@ body {
 .card-container:hover .back {
   transform: rotateY(0deg);
 }
+
+@media (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+
+  .card-container {
+    width: 200px;
+    height: 200px;
+  }
+}
