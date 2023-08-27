@@ -27,6 +27,7 @@
 │   ├── bg-animation-effects
 │   ├── circle-progressbar
 │   ├── magic-nav-menu-indicator
+│   ├── music-player
 │   ├── scrolling-animation-demo
 │   └── snake
 ├── js
@@ -43,5 +44,5 @@
     ├── routing-authentication
     └── tic-tac-toe
 
-42 directories
+43 directories
 ```
